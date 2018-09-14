@@ -82,32 +82,32 @@ var insertableText = {
 
 //START ADDING TEXT FUNCTIONS - be sure to change the function name and what's after the dot.
 
-function esBasics(){ return insertTextAtCursor(insertableText.esBasics.text); }
-function esBasicsCite(){ return insertTextAtCursor(insertableText.esBasics.cite); }
+function esBasics(){ askAboutInsert(insertableText.esBasics.text);  }
+function esBasicsCite(){ return askAboutInsert(insertableText.esBasics.cite); }
 
-function esClimateChange(){ return insertTextAtCursor(insertableText.esClimateChange.text); }
-function esClimateChangeCite(){ return insertTextAtCursor(insertableText.esClimateChange.cite); } 
+function esClimateChange(){ return askAboutInsert(insertableText.esClimateChange.text); }
+function esClimateChangeCite(){ return askAboutInsert(insertableText.esClimateChange.cite); } 
 
-function esCleanAir(){ return insertTextAtCursor(insertableText.esCleanAir.text); }
-function esCleanAirCite(){ return insertTextAtCursor(insertableText.esCleanAir.cite); } 
+function esCleanAir(){ return askAboutInsert(insertableText.esCleanAir.text); }
+function esCleanAirCite(){ return askAboutInsert(insertableText.esCleanAir.cite); } 
 
-function esSpecies(){ return insertTextAtCursor(insertableText.esSpecies); }
-function esSpeciesCite(){ return insertTextAtCursor(insertableText.esSpeciesCite); }
+function esSpecies(){ return askAboutInsert(insertableText.esSpecies); }
+function esSpeciesCite(){ return askAboutInsert(insertableText.esSpeciesCite); }
 
-function esEconBen(){ return insertTextAtCursor(insertableText.esEconBen.text); }
-function esEconBenCite(){ return insertTextAtCursor(insertableText.esEconBen.cite); }  
+function esEconBen(){ return askAboutInsert(insertableText.esEconBen.text); }
+function esEconBenCite(){ return askAboutInsert(insertableText.esEconBen.cite); }  
 
-function esQualLife(){ return insertTextAtCursor(insertableText.esQualLife.text); }
-function esQualLifeCite(){ return insertTextAtCursor(insertableText.esQualLife.cite); }  
+function esQualLife(){ return askAboutInsert(insertableText.esQualLife.text); }
+function esQualLifeCite(){ return askAboutInsert(insertableText.esQualLife.cite); }  
 
-function fcOldForests(){ return insertTextAtCursor(insertableText.fcOldForests.text); }
-function fcOldForestsCite(){ return insertTextAtCursor(insertableText.fcOldForests.cite); }  
+function fcOldForests(){ return askAboutInsert(insertableText.fcOldForests.text); }
+function fcOldForestsCite(){ return askAboutInsert(insertableText.fcOldForests.cite); }  
 
-function fcForestsClimChange(){ return insertTextAtCursor(insertableText.fcForestsClimChange.text); }
-function fcForestsClimChangeCite(){ return insertTextAtCursor(insertableText.fcForestsClimChange.cite); }  
+function fcForestsClimChange(){ return askAboutInsert(insertableText.fcForestsClimChange.text); }
+function fcForestsClimChangeCite(){ return askAboutInsert(insertableText.fcForestsClimChange.cite); }  
 
-function fcFixClimate(){ return insertTextAtCursor(insertableText.fcFixClimate.text); }
-function fcFixClimateCite(){ return insertTextAtCursor(insertableText.fcFixClimate.cite); }  
+function fcFixClimate(){ return askAboutInsert(insertableText.fcFixClimate.text); }
+function fcFixClimateCite(){ return askAboutInsert(insertableText.fcFixClimate.cite); }  
 
-function fcGlobalPolicy(){ return insertTextAtCursor(insertableText.fcGlobalPolicy.text); }
-function fcGlobalPolicyCite(){ return insertTextAtCursor(insertableText.fcGlobalPolicy.cite); }  
+function fcGlobalPolicy(){ return askAboutInsert(insertableText.fcGlobalPolicy.text); }
+function fcGlobalPolicyCite(){ return askAboutInsert(insertableText.fcGlobalPolicy.cite); }  

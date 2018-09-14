@@ -94,6 +94,18 @@ function appAbout() {
       }        
     }
 
+function askAboutInsert(myArr){
+  var ui = DocumentApp.getUi();
+  var response = ui.alert('Would you like to insert this text into the document?', myArr.join('\n\n'), ui.ButtonSet.YES_NO);
+  if(response == ui.Button.YES){
+    insertTextAtCursor(myArr);
+  } else if(response == ui.Button.NO){
+    
+  } else{
+    
+  }
+}
+
 function numberWithCommas(x){
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
